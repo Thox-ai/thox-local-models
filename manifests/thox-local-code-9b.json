@@ -1,0 +1,44 @@
+{
+  "id": "thox-local-code-9b",
+  "display_name": "THOX Local Code 9B",
+  "family": "THOX Local",
+  "role": "local_coding_reasoning_agent_model",
+  "upstream": {
+    "repo": "llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF",
+    "url": "https://huggingface.co/llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF",
+    "base_family": "Qwythos-9B-Claude-Mythos-5-1M",
+    "primary_quant": "Q4_K_M"
+  },
+  "capabilities": {
+    "text": true,
+    "vision": false,
+    "audio": false,
+    "video": false,
+    "coding": "strong",
+    "long_context": true,
+    "function_calling_profile": "qwen-compatible-where-supported"
+  },
+  "runtime": {
+    "default_context": 65536,
+    "high_memory_context": 262144,
+    "max_context_target": 1048576,
+    "kv_cache_key_type": "q8_0",
+    "kv_cache_value_type": "q8_0"
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 40,
+    "repeat_penalty": 1.08
+  },
+  "thox": {
+    "recommended_devices": [
+      "ThoxNova",
+      "Windows Workstation",
+      "macOS Workstation"
+    ],
+    "default_for_usb": false,
+    "offline_ready": true,
+    "local_first": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "thox-local-code-9b",
+  "name": "THOX Local Code 9B",
+  "description": "Local THOX.ai coding and long-context reasoning model.",
+  "upstream_url": "https://huggingface.co/llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF",
+  "parameters": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "top_k": 40,
+    "repeat_penalty": 1.08,
+    "context_size": 65536
+  },
+  "runtime_flags": [
+    "-ctk", "q8_0",
+    "-ctv", "q8_0"
+  ]
+}

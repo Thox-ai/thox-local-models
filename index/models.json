@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-07-04T17:51:52.498Z",
+  "model_count": 2,
+  "models": [
+    {
+      "id": "thox-local-vision-e2b",
+      "display_name": "THOX Local Vision E2B",
+      "role": "local_multimodal_edge_assistant",
+      "upstream_repo": "HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+      "upstream_url": "https://huggingface.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+      "default_for_usb": true,
+      "offline_ready": true
+    },
+    {
+      "id": "thox-local-code-9b",
+      "display_name": "THOX Local Code 9B",
+      "role": "local_coding_reasoning_agent_model",
+      "upstream_repo": "llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF",
+      "upstream_url": "https://huggingface.co/llmfan46/Qwythos-9B-Claude-Mythos-5-1M-uncensored-heretic-GGUF",
+      "default_for_usb": false,
+      "offline_ready": true
+    }
+  ]
+}

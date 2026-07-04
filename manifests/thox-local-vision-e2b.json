@@ -1,0 +1,48 @@
+{
+  "id": "thox-local-vision-e2b",
+  "display_name": "THOX Local Vision E2B",
+  "family": "THOX Local",
+  "role": "local_multimodal_edge_assistant",
+  "upstream": {
+    "repo": "HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+    "url": "https://huggingface.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+    "base_model": "google/gemma-4-e2b-it",
+    "license": "gemma",
+    "primary_file": "Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+    "mmproj_file": "mmproj-Gemma-4-E2B-Uncensored-HauhauCS-Aggressive-f16.gguf"
+  },
+  "capabilities": {
+    "text": true,
+    "vision": true,
+    "audio": true,
+    "video": true,
+    "coding": "lightweight",
+    "long_context": true
+  },
+  "runtime": {
+    "chat_template": "jinja",
+    "default_context": 32768,
+    "max_context": 131072,
+    "kv_cache_key_type": "q8_0",
+    "kv_cache_value_type": "q8_0"
+  },
+  "generation": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "repeat_penalty": 1.05
+  },
+  "thox": {
+    "recommended_devices": [
+      "ThoxKey",
+      "ThoxMini",
+      "ThoxMini Air",
+      "ThoxNova",
+      "Windows Workstation",
+      "macOS Workstation"
+    ],
+    "default_for_usb": true,
+    "offline_ready": true,
+    "local_first": true
+  }
+}

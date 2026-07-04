@@ -1,0 +1,18 @@
+{
+  "id": "thox-local-vision-e2b",
+  "name": "THOX Local Vision E2B",
+  "description": "Fast local THOX.ai multimodal model for USB and edge devices.",
+  "upstream_url": "https://huggingface.co/HauhauCS/Gemma-4-E2B-Uncensored-HauhauCS-Aggressive",
+  "parameters": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 64,
+    "repeat_penalty": 1.05,
+    "context_size": 32768
+  },
+  "runtime_flags": [
+    "–jinja",
+    "-ctk", "q8_0",
+    "-ctv", "q8_0"
+  ]
+}
