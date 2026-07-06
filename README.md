@@ -98,3 +98,14 @@ All model files run locally after download. No model weights are committed to Gi
 - This package does not include WebUI setup.
 - This package does not include Hermes setup.
 - This package only defines local model packaging and THOX model metadata.
+
+## Legal
+
+Copyright (c) 2026 Thox.ai LLC. All rights reserved.
+
+Thox.ai LLC is an independent Texas limited liability company.
+
+- **Tommy Xaypanya** - Chief Technology Officer (CTO)
+- **Craig Ross** - Chief Executive Officer (CEO)
+
+Licensed under the [MIT License](LICENSE).
