@@ -1,13 +1,43 @@
 # THOX Local Models
 
-<!-- thox-badges -->
-[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square&labelColor=09090b)](LICENSE)
-[![THOX.ai](https://img.shields.io/badge/THOX.ai-portfolio-0a0?style=flat-square&labelColor=09090b)](https://thox.ai)
-[![Status](https://img.shields.io/badge/status-success-green?style=flat-square&labelColor=09090b)](./scripts/validate-models.sh)
-[![Latest Release](https://img.shields.io/github/v/release/Thox-ai/thox-local-models?style=flat-square&labelColor=09090b)](https://github.com/Thox-ai/thox-local-models/releases)
-[![Last Commit](https://img.shields.io/github/last-commit/Thox-ai/thox-local-models?style=flat-square&labelColor=09090b)](https://github.com/Thox-ai/thox-local-models)
-[![Open Issues](https://img.shields.io/github/issues/Thox-ai/thox-local-models?style=flat-square&labelColor=09090b)](https://github.com/Thox-ai/thox-local-models/issues)
-<!-- /thox-badges -->
+[![License](https://img.shields.io/badge/license-MIT-171719)](LICENSE)
+![Visibility](https://img.shields.io/badge/visibility-public-171719)
+[![Release](https://img.shields.io/badge/release-v1.0.0-171719)](https://github.com/Thox-ai/thox-local-models/releases/tag/v1.0.0)
+
+**THOX.ai LLC. Your AI. Your Data. Your Rules.**
+
+## Description
+
+THOX Local Models - local-first GGUF model profiles, presets, instructions, and device recommendations for THOX.ai runtimes. It is packaging metadata for those profiles. It does not commit model weights, and it is not the thox.ai website.
+
+The GitHub About text is that first sentence. This sweep did not run the validation scripts and does not badge them as passing.
+
+## Releases
+
+**Latest published GitHub Release:** [v1.0.0](https://github.com/Thox-ai/thox-local-models/releases/tag/v1.0.0) (2026-07-04, 3:16 PM CT, not a prerelease).
+
+Release name: `THOX Local Models v1.0.0`. `GET /repos/Thox-ai/thox-local-models/releases/latest` returned that tag on 2026-10-03. No other published release was in the list. This README does not create a release.
+
+## Agent handoffs
+
+**No handoff file in this repo yet.**
+
+`HANDOFF.md`, `handoffs/`, and `AGENTS.md` are not at the repo root. A search of [`ttracx/thox-handoffs`](https://github.com/ttracx/thox-handoffs) on 2026-10-03 did not find a named lane file for this repo. This README does not create one.
+
+## Instructions
+
+There is no `AGENTS.md` or `HANDOFF.md`. Read [CONTRIBUTING.md](CONTRIBUTING.md), then the validation section below.
+
+Commands already in this README:
+
+```bash
+./scripts/validate-models.sh
+node scripts/generate-model-index.js
+```
+
+The script comment says exit code 0 means the file checks passed. This README edit did not run that script and does not claim a new pass. Do not commit model weights.
+
+This README edit does not create a release and does not publish thox.ai.
 
 ## Purpose
 
