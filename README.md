@@ -139,3 +139,9 @@ Thox.ai LLC is an independent Texas limited liability company.
 - **Craig Ross** - Chief Executive Officer (CEO)
 
 Licensed under the [MIT License](LICENSE).
+
+## Claim limits
+
+Engineering state only. Preview, simulation, and unvalidated-hardware labels must stay visible wherever this work is shown. No ship date, price, SLA, certification, App Store Connect or TestFlight state, or physical-device claim is made unless evidence in this repository names it. Unknown items are marked "Not verified". Unrun checks are marked "Not run".
+
+Your AI. Your Data. Your Rules.™
