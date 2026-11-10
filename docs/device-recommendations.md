@@ -23,7 +23,7 @@
 
 **Context:** 8192 to 16384 depending on memory.
 
-## ThoxMini Air
+## ThoxAir
 
 **Default model:** THOX Local Vision E2B lightweight fallback
 
